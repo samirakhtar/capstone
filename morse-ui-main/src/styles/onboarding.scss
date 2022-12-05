@@ -1,0 +1,8 @@
+@import "./mixins";
+
+.onboarding-container {
+  display: flex;
+  height: 100vh;
+
+  @include centered-children;
+}
